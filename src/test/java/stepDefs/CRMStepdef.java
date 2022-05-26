@@ -9,6 +9,7 @@ public class CRMStepdef {
 	@Before(value = "@RegressionTest", order = 1)
 	public void initiaizeChrome() {
 		System.out.println("initiaizeChrome");
+		System.out.println("Modified for CR1");
 	}
 	@Given("User must have logged in")
 	public void user_must_have_logged_in() {
